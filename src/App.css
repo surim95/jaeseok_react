@@ -1,0 +1,37 @@
+body {}
+#root {
+    margin: 0 auto;
+}
+#wrap {
+    width: 400px; height: 80vh;
+    background: #f5f5f5;
+    padding: 20px;
+}
+p {
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+h3 {
+    width: 400px; height: 400px;
+    overflow: hidden;
+}
+h3 img {
+    width: 100%;
+}
+h1 {
+    font-size: 1.125rem;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin-bottom: 32px;
+}
+nav > * {
+    margin-right: 16px;
+    color: #000;
+    text-decoration: underline;
+}
+nav > a:last-child {
+    margin-right: 0;
+}
